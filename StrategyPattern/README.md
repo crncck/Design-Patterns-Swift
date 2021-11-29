@@ -6,6 +6,7 @@
 - Has three parts: an object using a strategy, a strategy protocol, and a family of strategy objects.
 
 
+<br>
 
 ### Design Principles:
 
@@ -16,6 +17,7 @@
 - Favor composition over inheritance. (more flexibility, encapsulate a family of algorithms into their own set of classes, able to change behavior at runtime)
 
 
+<br>
 
 ### Implementation with Swift
 
@@ -122,6 +124,7 @@ mallardDuck.performQuack()                      // Quack
 ```
 
 
+<br>
 
 ### UML Diagram of Protocol
 
