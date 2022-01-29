@@ -71,7 +71,7 @@ I used *Head First Design Patterns by Eric Freeman and Elisabeth Robson in Java*
 
 ### UML Diagram
 
-<img src="https://tva1.sinaimg.cn/large/008i3skNgy1gwwl28swbcj31620u0abp.jpg" alt="converter" width="700" />
+<img src="https://tva1.sinaimg.cn/large/008i3skNgy1gwwl28swbcj31620u0abp.jpg" alt="converter" width="600" />
 
 
 <br>
@@ -92,7 +92,7 @@ I used *Head First Design Patterns by Eric Freeman and Elisabeth Robson in Java*
 
 ### UML Diagram
 
-<img src="" alt="converter" width="700" />
+<img src="https://tva1.sinaimg.cn/large/008i3skNgy1gyuz5hako1j30xl0u0q5d.jpg" alt="converter" width="450" />
 
 
 ## 3) Decorator Pattern
