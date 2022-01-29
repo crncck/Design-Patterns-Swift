@@ -95,3 +95,18 @@ I used *Head First Design Patterns by Eric Freeman and Elisabeth Robson in Java*
 <img src="" alt="converter" width="700" />
 
 
+## 3) Decorator Pattern
+
+-> [Implementation in Swift](https://github.com/crncck/Design-Patterns-Swift/tree/main/DecoratorPattern)
+
+<br>
+
+- Attaches additional responsibilities to an object dynamically
+
+
+<br>
+
+### UML Diagram
+
+<img src="" alt="converter" width="700" />
+
