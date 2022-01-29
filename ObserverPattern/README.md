@@ -1,10 +1,10 @@
 # Observer Pattern
 
-- Observable(Subject), updates Observers using a common interface
+- Subject, updates Observers using a common interface
 - Keeping the objects in the know
 - Defines one-to-many relationship between set of objects
 - When the state of one object changes, all of its dependents are notified
-- Observers are loosely coupled in that the Observable knows nothing about them
+- Observers are loosely coupled in that the Subject knows nothing about them
 
 
 <br>
@@ -18,10 +18,10 @@
 
 ### Implementation with Swift
 
-First of all, we will define the Observable protocol. It has 3 main methods which are for registering, removing, and notifying observers.
+First of all, we will define the Subject protocol. It has 3 main methods which are for registering, removing, and notifying observers.
 
 ```swift
-protocol Observable: class {
+protocol Subject: class {
     func registerObserver(observer: Observer)
     func removeObserver(observer: Observer)
     func notifyObservers()
@@ -42,7 +42,7 @@ protocol Observer: class {
 
 Now we can create our Subject which is WeatherData class.
 ```swift
-public class WeatherData: Observable {
+public class WeatherData: Subject {
 
     private var temperature: Float = 0.0
     private var humidity: Float = 0.0
@@ -54,7 +54,7 @@ public class WeatherData: Observable {
 
 
 
-Those are the three methods that the Observable protocol provides. We add a new observer to our observers array with registerObserver function. We can also remove an observer with removeObserver method. The notifyObserver method notifies each observer of the Subject when a change occurs.
+Those are the three methods that the Subject protocol provides. We add a new observer to our observers array with registerObserver function. We can also remove an observer with removeObserver method. The notifyObserver method notifies each observer of the Subject when a change occurs.
 
 ```swift
 func registerObserver(observer: Observer) {
@@ -73,14 +73,14 @@ func notifyObservers() {
 ```
 
 
-We will implement an observer which is called CurrentConditionsDisplay. It has an observable which is an instance of WeatherData class.
+We will implement an observer which is called CurrentConditionsDisplay. It has an Subject which is an instance of WeatherData class.
 
 ```swift
 class CurrentConditionsDisplay: Observer {
 
-    private weak var weatherData: Observable?
+    private weak var weatherData: Subject?
 
-    init(with subject: Observable) {
+    init(with subject: Subject) {
         self.weatherData = subject
         self.weatherData?.registerObserver(observer: self)
     }
@@ -109,7 +109,7 @@ CurrentConditionsDisplay class also has update and display method.
 ```
 
 
-Now we can create an observer and register it to an observable. Then the observable class will notify its observers when a measure changes.
+Now we can create an observer and register it to a subject. Then the subject class will notify its observers when a measure changes.
 
 ```swift
 var wData: WeatherData = WeatherData()
