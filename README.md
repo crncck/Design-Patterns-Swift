@@ -82,10 +82,10 @@ I used *Head First Design Patterns by Eric Freeman and Elisabeth Robson in Java*
 
 <br>
 
-- Observable (Subject), updates Observers using a common interface
+- Subject, updates Observers using a common interface
 - Defines one-to-many relationship between set of objects
 - When the state of one object changes, all of its dependents are notified
-- Observers are loosely coupled in that the Observable knows nothing about them
+- Observers are loosely coupled in that the Subject knows nothing about them
 
 
 <br>
