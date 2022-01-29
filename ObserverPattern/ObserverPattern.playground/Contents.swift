@@ -2,7 +2,7 @@ import UIKit
 
 
 
-protocol Observable: class {
+protocol Subject: class {
     func registerObserver(observer: Observer)
     func removeObserver(observer: Observer)
     func notifyObservers()
@@ -20,7 +20,7 @@ protocol Observer: class {
 
 
 
-public class WeatherData: Observable {
+public class WeatherData: Subject {
 
     private var temperature: Float = 0.0
     private var humidity: Float = 0.0
@@ -77,9 +77,9 @@ public class WeatherData: Observable {
 
 class CurrentConditionsDisplay: Observer {
 
-    private weak var weatherData: Observable?
+    private weak var weatherData: Subject?
 
-    init(with subject: Observable) {
+    init(with subject: Subject) {
         self.weatherData = subject
         self.weatherData?.registerObserver(observer: self)
     }
