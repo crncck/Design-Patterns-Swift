@@ -55,7 +55,7 @@ I used *Head First Design Patterns by Eric Freeman and Elisabeth Robson in Java*
 
 <br>
 
-## Strategy Pattern
+## 1) Strategy Pattern
 
 -> [Implementation in Swift](https://github.com/crncck/Design-Patterns-Swift/tree/main/StrategyPattern)
 
@@ -72,3 +72,26 @@ I used *Head First Design Patterns by Eric Freeman and Elisabeth Robson in Java*
 ### UML Diagram
 
 <img src="https://tva1.sinaimg.cn/large/008i3skNgy1gwwl28swbcj31620u0abp.jpg" alt="converter" width="700" />
+
+
+<br>
+
+## 2) Observer Pattern
+
+-> [Implementation in Swift](https://github.com/crncck/Design-Patterns-Swift/tree/main/ObserverPattern)
+
+<br>
+
+- Observable (Subject), updates Observers using a common interface
+- Defines one-to-many relationship between set of objects
+- When the state of one object changes, all of its dependents are notified
+- Observers are loosely coupled in that the Observable knows nothing about them
+
+
+<br>
+
+### UML Diagram
+
+<img src="" alt="converter" width="700" />
+
+
