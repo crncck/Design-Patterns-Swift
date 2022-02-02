@@ -53,13 +53,3 @@ Test.testSingleton()
 
 // Singleton works, variables equal.
 ```
-
-
-
-
-<br>
-
-### UML Diagram
-
-<img src="" width="600" />
-
