@@ -21,7 +21,6 @@ A software design pattern is a general, reusable solution to a commonly occuring
 Creating objects in a manner suitable for the situation.
 
 - Factory Method
-- Abstract Factory
 - Singleton
 
 
@@ -43,6 +42,7 @@ Common communication patterns between objects.
 - Strategy
 - Observer
 - Command
+- Template Method
 
 <br>
 
@@ -94,6 +94,8 @@ I used *Head First Design Patterns by Eric Freeman and Elisabeth Robson in Java*
 
 <img src="https://tva1.sinaimg.cn/large/008i3skNgy1gyuz5hako1j30xl0u0q5d.jpg" width="450" />
 
+<br>
+
 
 ## 3) Decorator Pattern
 
@@ -110,3 +112,115 @@ I used *Head First Design Patterns by Eric Freeman and Elisabeth Robson in Java*
 
 <img src="https://tva1.sinaimg.cn/large/008i3skNgy1gyv0j9lrgxj30yj0u0769.jpg" width="550" />
 
+<br>
+
+
+## 4) Factory Method Pattern
+
+-> [Implementation in Swift](https://github.com/crncck/Design-Patterns-Swift/tree/main/FactoryPattern)
+
+<br>
+
+- Defines an interface for creating an object, but lets the subclasses decide
+- It should just return a concrete product
+
+
+<br>
+
+### UML Diagram
+
+<img src="" width="600" />
+
+<br>
+
+
+
+## 5) Singleton Pattern
+
+-> [Implementation in Swift](https://github.com/crncck/Design-Patterns-Swift/tree/main/SingletonPattern)
+
+<br>
+
+- Ensures a class has only one instance and provides a global point of access to it.
+
+
+
+<br>
+
+### UML Diagram
+
+<img src="" width="600" />
+
+<br>
+
+
+## 6) Command Pattern
+
+-> [Implementation in Swift](https://github.com/crncck/Design-Patterns-Swift/tree/main/CommandPattern)
+
+<br>
+
+- Encapsulates each request as an object
+- Removes dependency between receiver and invoker
+
+
+<br>
+
+### UML Diagram
+
+<img src="" width="600" />
+
+<br>
+
+
+## 7) Adapter Pattern
+
+-> [Implementation in Swift](https://github.com/crncck/Design-Patterns-Swift/tree/main/AdapterPattern)
+
+<br>
+
+- Converts the interface of a class into another interface the clients expect.
+
+<br>
+
+### UML Diagram
+
+<img src="" width="600" />
+
+<br>
+
+
+## 8) Facade Pattern
+
+-> [Implementation in Swift](https://github.com/crncck/Design-Patterns-Swift/tree/main/FacadePattern)
+
+<br>
+
+- Provides a unified interface to a set of interfaces in a subsystem
+- Defines a higher level interface that makes the subsystem easier to use
+
+<br>
+
+### UML Diagram
+
+<img src="" width="600" />
+
+<br>
+
+
+## 9) Template Method Pattern
+
+-> [Implementation in Swift](https://github.com/crncck/Design-Patterns-Swift/tree/main/TemplateMethodPattern)
+
+<br>
+
+- Defines the skeleton of an algorithm in a method, deferring some steps to subclasses.
+
+
+<br>
+
+### UML Diagram
+
+<img src="" width="600" />
+
+<br>
