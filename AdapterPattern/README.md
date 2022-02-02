@@ -128,5 +128,5 @@ duckSimulator.quackAll()
 
 ### UML Diagram
 
-<img src="" width="600" />
+<img src="https://tva1.sinaimg.cn/large/008i3skNgy1gyzm7prsdwj31j20u0myd.jpg" width="600" />
 
