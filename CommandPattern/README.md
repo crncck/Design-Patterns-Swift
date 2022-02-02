@@ -187,5 +187,5 @@ When we clicked the button of the second slot we get the following output.
 
 ### UML Diagram
 
-<img src="" width="600" />
+<img src="https://tva1.sinaimg.cn/large/008i3skNgy1gyzm1k5505j31j30qjq4h.jpg" width="600" />
 
