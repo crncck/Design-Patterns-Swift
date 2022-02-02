@@ -129,7 +129,7 @@ I used *Head First Design Patterns by Eric Freeman and Elisabeth Robson in Java*
 
 ### UML Diagram
 
-<img src="" width="600" />
+<img src="https://tva1.sinaimg.cn/large/008i3skNgy1gyzlrhp0f5j31hn0u040s.jpg" width="600" />
 
 <br>
 
@@ -144,12 +144,6 @@ I used *Head First Design Patterns by Eric Freeman and Elisabeth Robson in Java*
 - Ensures a class has only one instance and provides a global point of access to it.
 
 
-
-<br>
-
-### UML Diagram
-
-<img src="" width="600" />
 
 <br>
 
@@ -168,7 +162,7 @@ I used *Head First Design Patterns by Eric Freeman and Elisabeth Robson in Java*
 
 ### UML Diagram
 
-<img src="" width="600" />
+<img src="https://tva1.sinaimg.cn/large/008i3skNgy1gyzm1k5505j31j30qjq4h.jpg" width="600" />
 
 <br>
 
@@ -185,7 +179,7 @@ I used *Head First Design Patterns by Eric Freeman and Elisabeth Robson in Java*
 
 ### UML Diagram
 
-<img src="" width="600" />
+<img src="https://tva1.sinaimg.cn/large/008i3skNgy1gyzm7prsdwj31j20u0myd.jpg" width="600" />
 
 <br>
 
@@ -203,7 +197,7 @@ I used *Head First Design Patterns by Eric Freeman and Elisabeth Robson in Java*
 
 ### UML Diagram
 
-<img src="" width="600" />
+<img src="https://tva1.sinaimg.cn/large/008i3skNgy1gyzmcs77s0j310m0u0q3u.jpg" width="500" />
 
 <br>
 
@@ -221,6 +215,6 @@ I used *Head First Design Patterns by Eric Freeman and Elisabeth Robson in Java*
 
 ### UML Diagram
 
-<img src="" width="600" />
+<img src="https://tva1.sinaimg.cn/large/008i3skNgy1gyzmkf4w5ij30xw0u0abp.jpg" width="450" />
 
 <br>
